@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Tutorials\\Practices\\Dotnet\\EcommarchApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4BE0DD56-96C3-46A5-92B9-A232E17728C0}|EcommarchApp\\EcommarchApp.csproj|d:\\tutorials\\practices\\dotnet\\ecommarchapp\\ecommarchapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BE0DD56-96C3-46A5-92B9-A232E17728C0}|EcommarchApp\\EcommarchApp.csproj|solutionrelative:ecommarchapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BE0DD56-96C3-46A5-92B9-A232E17728C0}|EcommarchApp\\EcommarchApp.csproj|d:\\tutorials\\practices\\dotnet\\ecommarchapp\\ecommarchapp\\ecommarchapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{4BE0DD56-96C3-46A5-92B9-A232E17728C0}|EcommarchApp\\EcommarchApp.csproj|solutionrelative:ecommarchapp\\ecommarchapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EcommarchApp.http",
+              "DocumentMoniker": "D:\\Tutorials\\Practices\\Dotnet\\EcommarchApp\\EcommarchApp\\EcommarchApp.http",
+              "RelativeDocumentMoniker": "EcommarchApp\\EcommarchApp.http",
+              "ToolTip": "D:\\Tutorials\\Practices\\Dotnet\\EcommarchApp\\EcommarchApp\\EcommarchApp.http",
+              "RelativeToolTip": "EcommarchApp\\EcommarchApp.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-10-06T10:33:52.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Tutorials\\Practices\\Dotnet\\EcommarchApp\\EcommarchApp\\Program.cs",
+              "RelativeDocumentMoniker": "EcommarchApp\\Program.cs",
+              "ToolTip": "D:\\Tutorials\\Practices\\Dotnet\\EcommarchApp\\EcommarchApp\\Program.cs",
+              "RelativeToolTip": "EcommarchApp\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T09:05:16.502Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

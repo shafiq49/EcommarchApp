@@ -4,3 +4,17 @@ GET {{EcommarchApp_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+GET https://localhost:7105/hello 
+###
+
+POST https://localhost:7105/hello
+###
+
+PUT https://localhost:7105/hello
+###
+
+DELETE https://localhost:7105/hello
+###
+
+GET https://localhost:7105/api/category
+

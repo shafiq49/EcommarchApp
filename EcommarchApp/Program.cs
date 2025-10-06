@@ -20,6 +20,43 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
+List<Category> Categories = new List<Category>();
+
+//Get  categorite 
+app.MapGet("/api/category", () =>
+{
+    return Results.Ok(Categories);
+});
+
+app.MapGet("/", () => "API testing perfectly");
+
+app.MapGet("/hello",() =>
+{
+    var resposne = new { message = "Get Successfull message", success = true };
+    return Results.Ok(resposne);
+});
+app.MapPost("/hello", () => 
+{
+    return Results.Created();
+});
+app.MapPut("/hello", () =>
+{
+    return Results.NoContent();
+});
+app.MapDelete("/hello", () =>
+{
+    return Results.NoContent();
+});
+
 app.MapControllers();
 
 app.Run();
+
+public record Category
+{
+    public Guid ProductId { get; set; }
+    public string? Name { get; set; }
+    public string? Description { get; set; }
+    public DateTime CreatedAt { get; set; }  
+  
+};
